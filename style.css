@@ -215,6 +215,23 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+/* go from smallest screen size to biggest */
+@media only screen and (max-width: 640px){
+  footer{
+    padding-bottom: 10%;
+  }
+  .work{ /*all the images in portfolio page*/
+    width:400px;
+    }
+  
+}
+
+@media only screen and (max-width: 768px){
+  footer{ /*to keep the copyright text in the footer*/
+    padding-bottom: 10%;
+  }
+  
+}
 
 @media only screen and (max-width: 980px){
   .container{
@@ -230,19 +247,3 @@ input[type=submit] {
   }
 }
 
-@media only screen and (max-width: 768px){
-  footer{ /*to keep the copyright text in the footer*/
-    padding-bottom: 10%;
-  }
-  
-}
-
-@media only screen and (max-width: 640px){
-  footer{
-    padding-bottom: 10%;
-  }
-  .work{ /*all the images in portfolio page*/
-    width:400px;
-    }
-  
-}
